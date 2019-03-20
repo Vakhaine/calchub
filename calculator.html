@@ -1,0 +1,42 @@
+<html>
+    <head><title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="calculator.css" type="text/css">
+    </head>
+
+    <body>
+        <!--Commit-->
+        <h1>Multi-coloured Calculator.js</h1><hr>
+        <div id="circle">
+            <div id="inputs"></div>
+            <div id="main">      
+                <div id="one">
+                    <button onClick="displayDigits(this)" value="9" class="btn9 btn">9</button>
+                    <button onClick="displayDigits(this)" value="8" class="btn8 btn">8</button>
+                    <button onClick="displayDigits(this)" value="7" class="btn7 btn">7</button>
+                    <button onClick="displayDigits(this)" value="*" class="btntimes btn">&times;</button>
+                    <button onClick="displayDigits(this)"value="/" class="btndivide btn">&divide;</button> 
+                </div>
+                <div id="two">
+                        <button onClick="displayDigits(this)" value="6" class="btn6 btn">6</button> 
+                        <button onClick="displayDigits(this)" value="5" class="btn5 btn">5</button> 
+                        <button onClick="displayDigits(this)"  value="4"class="btn4 btn">4</button>
+                        <button onClick="displayDigits(this)" value="." class="btndot btn">.</button> 
+                        <button onClick="displayDigits(this)" value="-" class="btnminus btn">&minus;</button>
+                </div>
+                <div id="three">
+                    <button onClick="displayDigits(this)" value="3" class="btn3 btn">3</button> 
+                    <button onClick="displayDigits(this)" value="2" class="btn2 btn">2</button>
+                    <button onClick="displayDigits(this)" value="1" class="btn1 btn">1</button>
+                    <button onClick="displayDigits(this)" value="+" class="btnadd btn">+</button>
+                    <button onClick="doAdd()" onclick="doSub()" value="=" class="btnequal btn">=</button>
+                </div>
+                <div>
+                    <button onClick="displayDigits(this)" value="0" class="btn0 btn">0</button>
+                    <button onClick="displayDigits(this)" value="C"  class="btnclr btn">C</button>
+                </div>
+            </div>
+        </div>
+     <script type="text/javascript" src="calculator.js"></script>
+    </body> 
+</html>

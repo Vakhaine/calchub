@@ -2,7 +2,7 @@
 //display digits
 //perform operation
 //display result
-// my second commit to  git
+
 
 var collectNums;
 //displays the digits to the screen
